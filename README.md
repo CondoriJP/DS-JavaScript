@@ -8,8 +8,8 @@ Juan Pablo Condori Tellez
 - [Introducción](#introducción)
 - [Ejecución](#ejecución)
 
-# Introdución> [!NOTE]
-En este repositorio se encuentra el trabajo práctico de JavaScript, el mismo esta organizado en una lista dentro del mismo html, algunos solo de ejeccución mediante el boton 'ejecutar' y otros de interacción con el usuario con el boton 'activar'.
+# Introdución
+En este repositorio se encuentra el trabajo práctico de JavaScript, el mismo esta organizado en una lista dentro del mismo html, algunos solo de ejeccución mediante el boton `ejecutar` y otros de interacción con el usuario con el boton `activar`.
 
 # Ejecución
-Para ejecutar se debe clonar el repositorio, ejecutar 'npm install' y luego 'npm start'.
+Para ejecutar se debe clonar el repositorio, ejecutar `npm install` y luego `npm start`.
