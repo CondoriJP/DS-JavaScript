@@ -21,7 +21,6 @@ div {
 .box_vertical {
     display: flex;
     flex-direction: column;
-    gap: 10px;
     justify-content: center;
     align-items: center;
 }
@@ -29,15 +28,15 @@ div {
 .box_horizontal {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 15px;
     justify-content: center;
     align-items: center;
 }
 
 .box_header {
     padding: 10px;
-    background-color: #ffffaf;
-    border-radius: 10px;
+    background-color: #82bdf8;
+    border-radius: 25px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     justify-content: center;
     align-items: center;
@@ -52,7 +51,7 @@ main {
 .box_main {
     padding: 10px;
     background-color: #ffffdd;
-    border-radius: 10px;
+    border-radius: 25px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     justify-content: center;
     align-items: center;
@@ -130,4 +129,50 @@ main {
 
 .input_number:focus, .input_text:focus-visible {
     border-color: #000000;
+}
+
+.input_text {
+    width: 125px;
+    border-radius: 8px;
+    border: 2px solid #646cff;
+    padding: 0.3em 0.6em;
+    font-size: 0.75em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+.input_text:focus, .input_text:focus-visible {
+    border-color: #000000;
+}
+
+.box_texto3 {
+    margin: 5px;
+    padding: 5px;
+    background-color: #ffffdd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+}
+
+.texto1 p {
+    color: #566573;
+    font-size: 14px;
+    margin: 5px 5px;
+    display: inline-block;
+}
+
+.texto2 p {
+    color: blue;
+    font-size: 14px;
+    margin: 5px 5px;
+    display: inline-block;
+}
+
+.lista {
+    color: #566573;
+    font-size: 14px;
+    padding: 5px;
 }
